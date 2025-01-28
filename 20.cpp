@@ -16,7 +16,7 @@ else
  vector <int> res(size);
     for (int i = 0;i < size; ++i)
     {
-       res[i] = begin++ ;
+       res[i] = begin++ ; // increment not preicreament so the range is correct
     }
     return res;
 }
